@@ -1,0 +1,25 @@
+{
+  "name": "@zenith/pqc-sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "eslint . --ext .ts,.tsx || true",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "ethers": "^6.12.0",
+    "js-sha3": "^0.9.2",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^1.6.0",
+    "@types/node": "^20.11.30"
+  }
+}
