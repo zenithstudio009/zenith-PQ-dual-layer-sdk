@@ -1,1 +1,1 @@
-# zenith-pqc-sdk
+#  Zenith Quantum Proof Dual-Signature Layer™
