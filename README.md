@@ -3,7 +3,7 @@
 
 	•	ECDSA Signature (classical layer): Maintains compatibility with existing chains (Ethereum, BNB, Polygon, Arbitrum, Solana, Aptos, etc).
 	•	PQC Signature (quantum-proof layer): Generated using NIST-approved CRYSTALS-Dilithium.
-	•	Optional Encryption: CRYSTALS-Kyber (KEM) can be used to secure private key material or session keys.
+	•	CRYSTALS-Kyber (KEM) can be used to secure private key material.
 
 ## This makes Zenith the HTTPS moment for Web3 - future-proofing wallets, dApps, and exchanges against quantum attacks while also delivering immediate fraud detection and audit logs.
 
